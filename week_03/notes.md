@@ -9,10 +9,10 @@ this week:
 ## assignment 01
 
 Using Lambda with API Gateway create a function that receives an event from a
-query string and does something with that event. This could be as simple as a
-greeter that displays 'Hello <name>' where name is passed to your function as a
-query string in the URL ...?name=ted. The actual functionality of your simple
-API is not that important, so keep it simple. The purpose of this assignment is
+query string and does something with that event. Your event data should be a
+number (or two numbers, or three...) and your function should perform some sort
+of simple math operation, adding two numbers together for example.
+The actual functionality of your simple API is not that important, so keep it simple. The purpose of this assignment is
 to gain familiarity with working with Lambda and API Gateway together, so the
 important part is that your URL works.
 
