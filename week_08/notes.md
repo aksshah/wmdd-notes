@@ -8,6 +8,11 @@ upcoming:
 
 ## environment variables serverless
 
+the serverless framework has a few different methods for handling environment
+variables, we will look at some of them today. generally environment variables with serverless match the pattern ${variable, default} 
+allowing you to assign a default value to a variable. This is particularly
+useful for variables passed to a service via the CLI.
+
 ### using an external file
 
 often you will need to store environment variables, API keys... that you don't
@@ -71,6 +76,8 @@ function:
 ```
 
 ### opt
+
+opt, or optional variables passed from the CLI
 
 another environment variable you may have encountered in the examples uses
 `${opt:stage}`. this allows you to pass different environment variables for
