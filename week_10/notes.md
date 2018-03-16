@@ -13,9 +13,9 @@ more about how to actually use S3 in a project.
 
 ## resources
 
-(aws sdk S3 examples)[https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-examples.html]
+[aws sdk S3 examples](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-examples.html)
 
 serverless examples:  
-(node fetch)[https://github.com/serverless/examples/tree/master/aws-node-fetch-file-and-store-in-s3]
-(node rekognition)[https://github.com/serverless/examples/tree/master/aws-node-rekognition-analysis-s3-image]
-(upload to s3)[https://github.com/serverless/examples/tree/master/aws-node-upload-to-s3-and-postprocess]
+[node fetch](https://github.com/serverless/examples/tree/master/aws-node-fetch-file-and-store-in-s3)
+[node rekognition](https://github.com/serverless/examples/tree/master/aws-node-rekognition-analysis-s3-image)
+[upload to s3](https://github.com/serverless/examples/tree/master/aws-node-upload-to-s3-and-postprocess)
